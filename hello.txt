@@ -1,1 +1,16 @@
-just to say hello
+CHECKING:
+  git log
+  git status (see tracked/untracked files)
+  git remote -v (see remote URLs)
+
+
+ONLY RUN ONCE AFTER CREATING A NEW REPO:
+  git init
+  git remote add origin url-to-git-repo
+
+
+EACH TIME YOU COMPLETE A FEATURE:
+  git add -A
+  git commit -m "describe what you've done"
+  git push origin master
+  git push origin feat/my-branch
